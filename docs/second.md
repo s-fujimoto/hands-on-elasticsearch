@@ -1,6 +1,6 @@
 name: inverse
 layout: true
-class: center, middle, inverse
+class: left, top, inverse
 ---
 # てすとぺーじ
 １ページ目
