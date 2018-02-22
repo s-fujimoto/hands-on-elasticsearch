@@ -1,12 +1,12 @@
 #!/bin/bash
 
-GITBOOK_SRC_PATH=src/doc
+GITBOOK_SRC_PATH=src/docs
 
 cd `dirname $0`/..
 
-gitbook install ${GITBOOK_SRC_PATH}
-gitbook build ${GITBOOK_SRC_PATH} ${GITBOOK_SRC_PATH}
-cp -a ${GITBOOK_SRC_PATH}/_book/* ./
+gitbook install
+gitbook build ${GITBOOK_SRC_PATH}
+cp -a ${GITBOOK_SRC_PATH}/_book/* docs
 
 git add .
 git commit -a -m "Update docs"
