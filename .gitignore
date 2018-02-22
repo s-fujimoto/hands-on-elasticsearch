@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# node.js
+node_modules
+package-lock.json
+
+# gitbook
+_book
+.gitbook
