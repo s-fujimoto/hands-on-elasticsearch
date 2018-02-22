@@ -6,7 +6,7 @@ cd `dirname $0`/..
 
 gitbook install
 gitbook build ${GITBOOK_SRC_PATH}
-cp -a ${GITBOOK_SRC_PATH}/_book/* docs
+cp -a ${GITBOOK_SRC_PATH}/_book/* ./
 
 git add .
 git commit -a -m "Update docs"
